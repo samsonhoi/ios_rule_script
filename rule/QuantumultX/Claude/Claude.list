@@ -3,9 +3,10 @@
 # REPO: https://github.com/blackmatrix7/ios_rule_script
 # UPDATED: 2025-06-06 09:20:01
 # HOST: 1
-# HOST-SUFFIX: 3
-# TOTAL: 4
+# HOST-SUFFIX: 4
+# TOTAL: 5
 HOST,cdn.usefathom.com,Claude
 HOST-SUFFIX,anthropic.com,Claude
 HOST-SUFFIX,claude.ai,Claude
 HOST-SUFFIX,claude.com,Claude
+HOST-SUFFIX,api.anthropic.com,Claude
