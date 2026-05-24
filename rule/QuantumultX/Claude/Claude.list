@@ -1,20 +1,4 @@
-# NAME: Claude
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-01-14 15:41:44
-# HOST: 2
-# HOST-SUFFIX: 4
-# TOTAL: 6
-HOST,cdn.usefathom.com,Claude
-HOST,api.anthropic.com,Claude
-HOST-SUFFIX,anthropic.com,Claude
-HOST-SUFFIX,claude.ai,Claude
-HOST-SUFFIX,claude.com,Claude
-HOST-SUFFIX,api.anthropic.com,Claude
-host-suffix,clau.de,Claude
-host-suffix,claudemcpclient.com,Claude
-host-suffix,claudeusercontent.com,Claude
-host,servd-anthropic-website.b-cdn.net,Claude
+HOST,servd-anthropic-website.b-cdn.net,Claude
 
 HOST-SUFFIX,claude.ai,Claude
 HOST-SUFFIX,anthropic.com,Claude
@@ -59,8 +43,8 @@ HOST,t3.gstatic.com,Claude
 HOST,storage.googleapis.com,Claude
 
 # ======== Anthropic 自有 IP 段 ========
-IP-CIDR,160.79.104.0/21,Claude
-IP-CIDR6,2607:6bc0::/32,Claude
+IP-CIDR,160.79.104.0/21,Claude,no-resolve
+IP-CIDR6,2607:6bc0::/32,Claude,no-resolve
 IP-ASN,399358,Claude
 
 # ======== 关键字兜底 ========
